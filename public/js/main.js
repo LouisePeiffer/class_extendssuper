@@ -10,12 +10,12 @@ class Persons {
     }
 }
 
-class Email extends Persons {
+class Users extends Persons {
     constructor (nom, prenom, age, email) {
         super(nom, prenom, age);
         this.email = email;
     }
 }
 
-let louise = new Email ("Peiffer", "Louise", 22, "louisepeiffer@hotmaiL.com")
+let louise = new Users ("Peiffer", "Louise", 22, "louisepeiffer@hotmaiL.com")
 console.log(louise);
